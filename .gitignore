@@ -1,0 +1,56 @@
+# Git ignore for AI_Project_final
+
+# --- Python ---
+# Ignore Python virtualenv created for this project
+Python_API/myenv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Pyenv/virtualenv
+.python-version
+
+# --- Flutter / Dart ---
+# Dart tool and build outputs for the Flutter app (do not commit)
+Mobile_APP/firebasefluttter/.dart_tool/
+Mobile_APP/firebasefluttter/build/
+Mobile_APP/firebasefluttter/.packages
+Mobile_APP/firebasefluttter/.flutter-plugins
+Mobile_APP/firebasefluttter/.flutter-plugins-dependencies
+Mobile_APP/firebasefluttter/.pub/
+Mobile_APP/firebasefluttter/.pub-cache/
+Mobile_APP/firebasefluttter/.metadata
+Mobile_APP/firebasefluttter/pubspec.lock
+
+# Android / local config
+Mobile_APP/firebasefluttter/android/.gradle/
+Mobile_APP/firebasefluttter/android/local.properties
+Mobile_APP/firebasefluttter/android/**/build/
+
+# iOS build artifacts
+Mobile_APP/firebasefluttter/ios/Flutter/Flutter.framework
+Mobile_APP/firebasefluttter/ios/Pods/
+Mobile_APP/firebasefluttter/ios/.symlinks/
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Sensitive files (add any API keys or secrets here if needed)
+# .env
